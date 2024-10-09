@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: antiquewhite;
+    
+}
+a:hover{
+    color: gold;
+}
+a:active{
+    color: cyan;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 32;
+    background-color:black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round' , sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('C:/Users/pc/Downloads/musicgirlcopy.jpg');
+    background-size: 100% 100%;
+}
+.bottom {
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+.icons {
+    margin-top: 10px;
+}
+#playbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.set {
+    margin-top: 30px;
+
+}
+.songitem {
+    height: 25px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    width: 60%;
+}
+.songitem img {
+    width: 25px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timespan {
+    margin: 0 23px;
+}
+
+.timespan i {
+    cursor: pointer;
+}
+
+.mynav {
+    margin-left: 700px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round' , sans-serif;
+}
