@@ -10,6 +10,9 @@ body{
 a{
     text-decoration: none;
 }
+a:any-link{
+    color: deeppink;
+}
 a:visited{
     color: antiquewhite;
     
@@ -107,7 +110,11 @@ nav ul li{
 }
 
 .mynav {
-    margin-left: 700px;
+    margin-left: 800px;
+}
+
+.list-nav {
+    margin-left: 40px;
 }
 
 .songinfo {
